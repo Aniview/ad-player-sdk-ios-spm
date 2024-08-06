@@ -12,7 +12,7 @@ In XCode:
 
 * navigate to File > Add Package Dependencies
 
-* In  Search or enter Package enter the following URLv
+* In  "Search or enter Package" enter the following URL:
 https://github.com/Aniview/ad-player-sdk-ios-spm.git 
 
 

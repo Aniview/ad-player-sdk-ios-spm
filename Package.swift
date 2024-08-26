@@ -3,11 +3,11 @@
 
 import PackageDescription
 
-private let artifactVersion = "1.11.9"
+private let artifactVersion = "1.12.0"
 
 let package = Package(
     name: "AdPlayerSDK",
-    platforms: [.iOS(.v12)],
+    platforms: [.iOS(.v13)],
     products: [
         .library(
             name: "AdPlayerSDK",
@@ -29,7 +29,7 @@ let package = Package(
             name: "AdPlayerSDK",
             url:
                 "https://github.com/Aniview/ad-player-sdk-ios-pods/releases/download/\(artifactVersion)/AdPlayerSDK.zip",
-            checksum: "09ab20b00d34c3a45ba6c2048bacd4dc5a039292ab4673154b8be8d32068a000"
+            checksum: "c16564d2a3f3901b80e37523575a5eb69500a91e4e70d5be27b443004d9c81fd"
         )
     ]
 )
